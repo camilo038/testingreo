@@ -1,0 +1,9 @@
+{
+	"response": {
+					"codigoError": "#if(${exchange.properties.codigoError})${exchange.properties.codigoError}#end",
+					"descripcionError": "#if(${exchange.properties.exceptionMessage})${exchange.properties.exceptionMessage}#end"
+				},
+	"nombreServicio":"#if(${exchange.properties.nombreProyecto})${exchange.properties.nombreProyecto}#end",
+	"fechaHora":"#if(${exchange.properties.fechaSistema})${exchange.properties.fechaSistema}#end"
+}
+

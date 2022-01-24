@@ -1,0 +1,5 @@
+{
+"moviCtcoNegocio": "GL185",
+"moviCtcoCiasNego": "CCAEV",
+"moviEncargo": 14857
+}
